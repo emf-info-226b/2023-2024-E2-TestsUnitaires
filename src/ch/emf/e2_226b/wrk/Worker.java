@@ -29,9 +29,9 @@ public class Worker {
      * Retourne la catégorie de réduction basée sur le montant d'achat.
      * 
      * Les conditions sont les suivantes :<br>
-     * - plus petit que 100.0 retourne "Pas de réduction"
-     * - entre 100.0 inclus et 200.0 retourne "Réduction de 10%"
-     * - entre 200.0 inclus et 300.0 retourne "Réduction de 15%"
+     * - plus petit que 100.0 retourne "Pas de réduction"<br>
+     * - entre 100.0 inclus et 200.0 retourne "Réduction de 10%"<br>
+     * - entre 200.0 inclus et 300.0 retourne "Réduction de 15%"<br>
      * - plus grand de 300.0 inclus retourne "Réduction de 20%"
      *
      * @param amount Le montant d'achat
