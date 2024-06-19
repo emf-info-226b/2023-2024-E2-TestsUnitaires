@@ -34,15 +34,15 @@ public class Worker {
      * - entre 200.0 inclus et 300.0 retourne "Réduction de 15%"<br>
      * - plus grand de 300.0 inclus retourne "Réduction de 20%"
      *
-     * @param amount Le montant d'achat
+     * @param montant Le montant d'achat
      * @return La catégorie de réduction correspondante au critère ci-dessous.
      */
-    public String retourneCategorieReduction(double amount) {
-        if (amount < 100.0) {
+    public String retourneCategorieReduction(double montant) {
+        if (montant < 100.0) {
             return "Pas de réduction";
-        } else if (amount >= 100.0 && amount < 200.0) {
+        } else if (montant >= 100.0 && montant < 200.0) {
             return "Réduction de 10%";
-        } else if (amount >= 200.0 && amount < 300.0) {
+        } else if (montant >= 200.0 && montant < 300.0) {
             return "Réduction de 15%";
         } else {
             return "Réduction de 20%";
